@@ -1,0 +1,70 @@
+.navbar-collapse {
+  margin-left: 10px;
+}
+
+.navbar-collapse ul li {
+  margin-left: 15px;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.navbar-brand {
+  height: 10vh;
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.nav-item a {
+  color: rgb(255, 255, 255) !important;
+}
+
+@media screen and (max-width: 950px) {
+  .nav-item a {
+    text-align: center;
+    color: rgb(255, 255, 255) !important;
+    background-color:#d3b76d  !important;
+  }
+}
+
+.dropdown-menu {
+  background-color: #d3b76d  !important;
+  text-align: center !important;
+  position: absolute !important;
+  z-index: -22;
+  color: #000 !important;
+}
+
+.dropdown-menu:hover {
+  text-align: center !important;
+  color: black !important;
+}
+
+.click-button {
+  cursor: pointer !important;
+  transition: 0.2s;
+}
+
+.click-button:hover {
+  transform: scale(1.1);
+}
+
+.en-ar {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  width: 90px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #d3b76d ;
+  background-image: url("./../../../public/uploads/1/header/العلم.png");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-size: 50% 100%;
+  cursor: pointer;
+}
